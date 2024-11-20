@@ -42,6 +42,12 @@ header {
   align-items: center;
   justify-content: space-between;
   color: black;
+  padding: 0 20 px;
+  z-index: 1000;
+}
+
+ul {
+  width: 100%;
 }
 
 .nav-links {
@@ -51,14 +57,27 @@ header {
   color: var(--logo);
   font-weight: 600;
   text-transform: uppercase;
+  position: relative;
 }
 
-.cactus-logo {
-  width: 10%;
+header .larioja-logo {
+  max-width: 70px;
+  height: auto;
+  object-fit: contain;
 }
 
-.larioja-logo {
-  width: 7.5%;
+header a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+header .larioja-logo {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  object-fit: contain;
 }
 
 /* Estilos para la sección Hero */
@@ -68,7 +87,7 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   background-image: url(./assets/img/la-riojajpg.png);
   background-position: bottom;
@@ -120,6 +139,10 @@ header .cactus-logo {
   .larioja-logo {
     width: 10%;
   }
+
+  header {
+    padding: 0;
+  }
 }
 
 @media (max-width: 992px) {
@@ -151,4 +174,11 @@ header .cactus-logo {
   .larioja-logo {
     width: 25%;
   }
+}
+
+.body-menu {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
