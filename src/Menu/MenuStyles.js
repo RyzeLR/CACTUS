@@ -8,29 +8,49 @@ export const MenuContainer = styled.main`
   gap: 2rem;
   min-height: 100vh; /* Usar min-height evita que se exceda el tamaño */
   padding: 2rem;
-  background-color: var(--arena);
+  background-color: var(--verde-olivo);
 `;
 
 export const MenuBackground = styled.div`
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), var(--arena)),
-    url('./assets/img/la-riojajpg.png');
-  background-position: bottom;
-  background-size: cover;
   width: 100vw;
-  height: 85vh;
+  min-height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative; /* Necesario para el uso de ::before */
+  z-index: 20;
+
+  /* Fondo y gradiente ajustados */
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1; /* Fondo más visible */
+    filter: blur(5px); /* Menos desenfoque para que la imagen sea más clara */
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0) 60%,
+        /* Gradiente más sutil */ var(--verde-olivo)
+      ),
+      url('./assets/img/larioja4.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1; /* Para estar debajo del contenido */
+  }
 `;
 
 export const MenuImage = styled.img`
-  width: 600px; /* Controlar tamaño máximo para imágenes */
-  object-fit: contain;
-  margin-top: 4rem; /* Ajustado para evitar desplazamiento masivo */
-
-  @media (max-width: 992px) {
-    width: 400px;
-  }
+  position: relative;
+  z-index: 2; /* Por encima del fondo */
+  width: 800px; /* Ajusta el tamaño según necesidad */
+  max-width: 100%; /* Asegura que no sea demasiado grande */
+  filter: drop-shadow(
+    0px 4px 6px rgba(0, 0, 0, 0.3)
+  ); /* Mejora la visibilidad */
 `;
 
 export const CardContainer = styled.section`

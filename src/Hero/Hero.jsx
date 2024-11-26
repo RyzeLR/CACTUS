@@ -26,7 +26,7 @@ export const Hero = () => {
         <ButtonGlobal data-aos="zoom-in" data-aos-delay="600">
           <a
             target="blank"
-            href="https://www.google.com/maps/place/La+Rioja,+Argentina"
+            href="https://maps.app.goo.gl/rZuhWdNpAFRqaBmj9?g_st=ac"
           >
             Ubicación
           </a>

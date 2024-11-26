@@ -32,14 +32,16 @@ export const HeroContainer = styled.section`
 
   @media (max-width: 992px) {
     text-align: center;
-  }
 
-  h1 {
-    font-size: 2.5rem;
-  }
+    h1 {
+      font-size: 2rem;
+      max-width: 90%;
+    }
 
-  p {
-    font-size: 1rem;
+    p {
+      font-size: 0.8rem;
+      max-width: 85%;
+    }
   }
 `;
 
@@ -60,6 +62,14 @@ export const ButtonGlobal = styled.button`
 
   &:hover {
     background-color: var(--verde-olivo);
+  }
+
+  &:nth-child(2) {
+    background-color: var(--terracota);
+  }
+
+  &:nth-child(2):hover {
+    background-color: var(--marron);
   }
 
   a {
