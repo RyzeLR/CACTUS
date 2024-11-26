@@ -16,7 +16,6 @@ export const HeaderContainer = styled.header`
 
   a {
     display: flex;
-    align-items: center;
     height: 100%; /* Asegurar que el enlace tenga la misma altura que el header */
     overflow: hidden;
   }

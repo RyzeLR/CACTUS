@@ -46,6 +46,9 @@ export const CardImage = styled.img`
   border-radius: 10px;
   box-shadow: 0px 4px 8px #000;
   transition: transform 0.3s ease;
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
 
   &:hover {
     transform: scale(1.05);

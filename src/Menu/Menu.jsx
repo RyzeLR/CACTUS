@@ -34,13 +34,13 @@ export const Menu = () => {
         <CardImage
           src="./assets/img/humita.png"
           alt="Humita"
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-delay="200"
         />
         <CardImage
           src="./assets/img/locro.png"
           alt="Locro"
-          data-aos="fade-left"
+          data-aos="fade-up"
           data-aos-delay="300"
         />
       </CardContainer>

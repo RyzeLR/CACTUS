@@ -24,6 +24,7 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Poppins';
     list-style: none;
     text-decoration: none;
+    border: 1px solid red;
 }
 
 body {
