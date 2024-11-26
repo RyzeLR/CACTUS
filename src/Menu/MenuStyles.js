@@ -35,7 +35,7 @@ export const MenuBackground = styled.div`
         rgba(255, 255, 255, 0) 60%,
         /* Gradiente más sutil */ var(--verde-olivo)
       ),
-      url('./assets/img/larioja4.jpg');
+      url('/assets/img/larioja4.jpg');
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
