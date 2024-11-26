@@ -39,7 +39,7 @@ export const MenuBackground = styled.div`
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: -1; /* Para estar debajo del contenido */
+    z-index: -1;
   }
 `;
 
