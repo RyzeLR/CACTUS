@@ -39,6 +39,9 @@ export const CardContainer = styled.section`
   align-items: center;
   flex-direction: column;
   gap: 5rem;
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
 `;
 
 export const CardImage = styled.img`
