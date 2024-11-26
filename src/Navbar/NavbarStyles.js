@@ -26,6 +26,12 @@ export const HeaderContainer = styled.header`
     height: 130px;
     object-fit: contain;
   }
+
+  @media (max-width: 992px) {
+    img {
+      height: 100px;
+    }
+  }
 `;
 
 // Estilo para los links dentro de la navegación
