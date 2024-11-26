@@ -6,11 +6,11 @@ export const Navbar = () => {
   return (
     <HeaderContainer>
       <Link to="/">
-        <img src="./public/cactus.png" alt="Logo Cactus" />
+        <img src="./assets/img/cactus.png" alt="Logo Cactus" />
       </Link>
 
       <Link to="/">
-        <img src="./public/larioja.png" alt="Logo Cactus" />
+        <img src="./assets/img/larioja.png" alt="Logo Cactus" />
       </Link>
     </HeaderContainer>
   );

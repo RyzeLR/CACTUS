@@ -21,24 +21,24 @@ export const Menu = () => {
     <MenuContainer>
       <CardContainer>
         <MenuBackground>
-          <MenuImage src="./public/logomenu.png" alt="Menú Logo" />
+          <MenuImage src="./assets/img/logomenu.png" alt="Menú Logo" />
         </MenuBackground>
 
         {/* Aplicando AOS a las imágenes */}
         <CardImage
-          src="./public/chivito.png"
+          src="./assets/img/chivito.png"
           alt="Chivito"
           data-aos="fade-up"
           data-aos-delay="100"
         />
         <CardImage
-          src="./public/humita.png"
+          src="./assets/img/humita.png"
           alt="Humita"
           data-aos="fade-right"
           data-aos-delay="200"
         />
         <CardImage
-          src="./public/locro.png"
+          src="./assets/img/locro.png"
           alt="Locro"
           data-aos="fade-left"
           data-aos-delay="300"

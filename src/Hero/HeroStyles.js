@@ -12,7 +12,7 @@ export const HeroContainer = styled.section`
   justify-content: center;
   width: 100%;
   height: 100vh;
-  background-image: url('/public/la-riojajpg.png');
+  background-image: url('./assets/img/la-riojajpg.png');
   background-position: bottom;
   background-size: cover;
   padding: 1rem;

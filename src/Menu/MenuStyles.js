@@ -13,7 +13,7 @@ export const MenuContainer = styled.main`
 
 export const MenuBackground = styled.div`
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0), var(--arena)),
-    url('./public/la-riojajpg.png');
+    url('./assets/img/la-riojajpg.png');
   background-position: bottom;
   background-size: cover;
   width: 100vw;
