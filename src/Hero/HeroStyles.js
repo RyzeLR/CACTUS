@@ -66,4 +66,9 @@ export const ButtonGlobal = styled.button`
     color: white;
     text-decoration: none;
   }
+
+  @media (max-width: 992px) {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
 `;
