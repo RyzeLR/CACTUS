@@ -46,11 +46,15 @@ export const MenuBackground = styled.div`
 export const MenuImage = styled.img`
   position: relative;
   z-index: 2; /* Por encima del fondo */
-  width: 800px; /* Ajusta el tamaño según necesidad */
+  width: 600px; /* Ajusta el tamaño según necesidad */
   max-width: 100%; /* Asegura que no sea demasiado grande */
   filter: drop-shadow(
     0px 4px 6px rgba(0, 0, 0, 0.3)
   ); /* Mejora la visibilidad */
+
+  @media (max-width: 992px) {
+    width: 800px;
+  }
 `;
 
 export const CardContainer = styled.section`
